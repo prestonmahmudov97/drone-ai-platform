@@ -6,5 +6,6 @@ a plain-Python interface.
 """
 
 from app.repositories.user import UserRepository
+from app.repositories.upload import UploadRepository
 
-__all__ = ["UserRepository"]
+__all__ = ["UserRepository", "UploadRepository"]

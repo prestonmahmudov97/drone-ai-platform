@@ -20,7 +20,7 @@ from app.core.config import get_settings
 from app.db.base import Base
 
 # Import model modules so they register themselves on Base.metadata.
-from app.models import User  # noqa: F401
+from app.models import User, Upload  # noqa: F401
 
 config = context.config
 

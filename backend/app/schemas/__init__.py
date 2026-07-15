@@ -10,6 +10,7 @@ from app.schemas.user import (
     TokenResponse,
     TokenRefreshRequest,
 )
+from app.schemas.upload import UploadResponse, UploadListResponse
 
 __all__ = [
     "UserCreate",
@@ -17,4 +18,6 @@ __all__ = [
     "UserResponse",
     "TokenResponse",
     "TokenRefreshRequest",
+    "UploadResponse",
+    "UploadListResponse",
 ]

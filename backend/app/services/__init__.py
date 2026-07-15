@@ -5,5 +5,6 @@ abstraction layer, and storage/background-job clients. Route handlers in
 """
 
 from app.services.user import UserService
+from app.services.upload import UploadService
 
-__all__ = ["UserService"]
+__all__ = ["UserService", "UploadService"]

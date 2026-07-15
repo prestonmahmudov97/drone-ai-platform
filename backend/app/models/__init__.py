@@ -5,5 +5,6 @@ in Milestone 4.
 """
 
 from app.models.user import User
+from app.models.upload import Upload
 
-__all__ = ["User"]
+__all__ = ["User", "Upload"]
